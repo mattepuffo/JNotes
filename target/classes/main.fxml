@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+-->
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="Infinity" prefHeight="700" prefWidth="1000"
+            xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.mp.jnotes.ControllerMain">
+    <top>
+        <VBox>
+            <children>
+                <MenuBar fx:id="menuBar">
+                    <menus>
+                        <Menu text="File">
+                            <items>
+                                <MenuItem accelerator="Ctrl+A" onAction="#aggiungiNota" text="Aggiungi nota"/>
+                                <MenuItem fx:id="miJson" accelerator="Ctrl+J" onAction="#esporta" text="Esporta JSON"/>
+                                <MenuItem fx:id="miCsv" accelerator="Ctrl+K" onAction="#esporta" text="Esporta CSV"/>
+                                <MenuItem fx:id="miXls" accelerator="Ctrl+L" onAction="#esporta" text="Esporta XLS"/>
+                                <MenuItem fx:id="miXml" accelerator="Ctrl+M" onAction="#esporta" text="Esporta XML"/>
+                                <SeparatorMenuItem/>
+                                <MenuItem fx:id="miCsvImp" onAction="#importa" text="Importa CSV"/>
+                                <SeparatorMenuItem/>
+                                <MenuItem accelerator="Ctrl+I" onAction="#about" text="About"/>
+                                <MenuItem accelerator="Ctrl+Q" onAction="#quit" text="Quit"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </children>
+            <children>
+                <FlowPane>
+                    <children>
+                        <Button fx:id="bntRefresh" onMouseClicked="#refresh">
+                            <FlowPane.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                            </FlowPane.margin>
+                            Refresh
+                        </Button>
+                    </children>
+                    <children>
+                        <Label fx:id="lblCntGruppo"></Label>
+                    </children>
+                </FlowPane>
+            </children>
+        </VBox>
+    </top>
+    <left>
+        <StackPane prefWidth="150">
+            <TableView fx:id="tblGruppi" BorderPane.alignment="CENTER" onMouseClicked="#onTblGruppiClick"></TableView>
+        </StackPane>
+    </left>
+    <center>
+        <TableView fx:id="tbl" onKeyPressed="#deleteNota" onMouseClicked="#onTblDoubleClick"
+                   BorderPane.alignment="CENTER"/>
+    </center>
+</BorderPane>

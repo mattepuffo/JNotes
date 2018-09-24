@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+
+<!--
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+-->
+
+<BorderPane prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mp.jnotes.ControllerNota"
+            fx:id="pane">
+    <top>
+        <FlowPane>
+            <children>
+                <TextField fx:id="txtTitolo" promptText="Titolo">
+                    <FlowPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </FlowPane.margin>
+                </TextField>
+            </children>
+            <children>
+                <TextField fx:id="txtGruppo" promptText="Gruppo">
+                    <FlowPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </FlowPane.margin>
+                </TextField>
+            </children>
+        </FlowPane>
+    </top>
+    <center>
+        <TextArea fx:id="he" promptText="Testo"></TextArea>
+    </center>
+    <bottom>
+        <FlowPane>
+            <children>
+                <Button fx:id="btn">
+                    <FlowPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                    </FlowPane.margin>
+                </Button>
+            </children>
+        </FlowPane>
+    </bottom>
+</BorderPane>

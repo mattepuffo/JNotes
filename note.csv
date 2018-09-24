@@ -1,0 +1,100 @@
+titolo,gruppo,testo
+scalpel,linux,https://www.chimerarevo.com/linux/recuperare-file-cancellati-linux-scalpel-63139/
+extundelete,linux,https://wiki.archlinux.org/index.php/File_recovery#Extundelete
+snap,linux,snap
+copiare file permessi linux,linux,https://www.tecmint.com/copy-file-permissions-and-ownership-to-another-file-in-linux/
+rust applications,linux,https://fedoramagazine.org/oxidizing-fedora-try-rust-applications-today/
+ffmpeg conversioni,linux,https://www.maketecheasier.com/ffmpeg-commands-media-file-conversions/amp/
+linux who,linux,https://www.howtoforge.com/linux-who-command/amp/ (controllare)
+trucchi sudo,linux,https://www.linuxtechi.com/quick-tips-#-command-linux-systems/
+rinominare file multipli linux,linux,https://www.rosehosting.com/blog/how-to-rename-multiple-files-on-linux/
+monitorare host multipli linux,linux,https://www.ostechnix.com/how-to-quickly-monitor-multiple-hosts-in-linux/
+linux nm,linux,https://www.howtoforge.com/linux-nm-command/amp/
+dcraw,linux,dcraw
+linux mkfifo,linux,https://www.howtoforge.com/linux-mkfifo-command/amp/
+linux nproc,linux,https://www.howtoforge.com/linux-nproc-command/amp/
+linux bck script,linux,https://www.tecmint.com/system-tar-and-restore-a-linux-backup-script/
+bck cinnamon,linux,https://www.addictivetips.com/ubuntu-linux-tips/backup-the-cinnamon-desktop-settings-on-linux/ (controllare)
+comando fc,linux,https://www.ostechnix.com/the-fc-command-tutorial-with-examples-for-beginners/
+comandi shuf,linux,https://www.ostechnix.com/the-shuf-command-tutorial-with-examples-for-beginners/
+bash variabili,linux,https://linuxhint.com/variables-bash-programming/
+agedu,linux,https://www.tecmint.com/agedu-track-disk-space-usage-in-linux/
+ebpf - bcc-tools,linux,ebpf - bcc-tools
+dutree,linux,https://www.tecmint.com/dutree-analyze-disk-usage-in-linux/
+terminale calcoli,linux,https://www.networkworld.com/article/3268964/linux/how-to-do-math-on-the-linux-command-line.amp.html
+sdiff,linux,https://www.tecmint.com/linux-sdiff-command-examples/ (controllare)
+menulibre,linux,https://www.phoronix.com/scan.php?page=news_item&px=MenuLibre-2.2-Released
+flatpak,linux,https://www.ostechnix.com/flatpak-new-framework-desktop-applications-linux/
+font finder,linux,https://www.ostechnix.com/font-finder-easily-search-and-install-google-web-fonts-in-linux/
+numfmt,linux,https://www.ostechnix.com/the-numfmt-command-tutorial-with-examples-for-beginners/
+comando w,linux,https://www.howtoforge.com/linux-w-command/amp/
+migliorare velocità applicazioni start,linux,https://www.ostechnix.com/how-to-improve-application-startup-time-in-linux/
+reset root pwd,linux,https://opensource.com/article/18/4/reset-lost-root-password (controllare)
+osquery,linux,osquery
+visualizzare imamgini terminale,linux,https://www.ostechnix.com/how-to-display-images-in-the-terminal/
+giocare snake terminale,linux,https://www.tecmint.com/play-snake-game-in-linux-terminal/
+comando test,linux,https://www.howtoforge.com/linux-test-command/
+zeal,software,https://www.ostechnix.com/zeal-an-offline-documentation-browser-for-developers/
+ndm,software,https://www.ostechnix.com/ndm-a-desktop-gui-application-for-npm/
+server fila statici,software,https://www.ostechnix.com/how-to-setup-static-file-server-instantly/
+realtime log,software,https://www.howtoforge.com/tutorial/ubuntu-log-io-realtime-log-viewer/amp/
+xonsh,software,https://github.com/xonsh/xonsh
+filamanger,software,https://www.ostechnix.com/filemanager-cross-platform-stylish-web-file-manager/
+cloud commander,software,https://www.ostechnix.com/cloud-commander-a-web-file-manager-with-console-and-editor/
+You-get,software,https://www.ostechnix.com/you-get-a-cli-downloader-to-download-media-from-80-websites/
+pandoc,software,https://pandoc.org/installing.html
+rethinkdb,database,https://opensourceforu.com/2018/04/rethinkdb-a-nosql-database-for-real-time-applications/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+LinuxForYou+%28OpenSourceForYou+%29&authuser=0
+mobile db,database,https://opensourceforu.com/2018/04/a-quick-look-at-open-source-databases-for-mobile-app-development/amp/
+db iot,database,https://opensourceforu.com/2018/05/open-source-databases-that-work-best-for-iot/amp/
+sqlchiper,database,https://www.zetetic.net/sqlcipher/
+wrld3d,mondo web,https://www.wrld3d.com/
+collezioni,kotlin, http://www.c-sharpcorner.com/article/using-collection-in-kotlin/
+kotson,kotlin, https://github.com/SalomonBrys/Kotson
+clipboard,kotlin, clipboard (provare la conversione da java)
+numeri random,kotlin, numeri random
+Java google calendar,java, https://developers.google.com/calendar/overview
+screen recorder,java, https://github.com/agomezmoron/screen-recorder
+guava,java, https://www.tutorialspoint.com/guava/index.htm
+dbutils,java, https://commons.apache.org/proper/commons-dbutils/ - https://www.tutorialspoint.com/dbutils/dbutils_first_application.htm
+redis,java,connessione redis
+lanterna,java, https://github.com/mabe02/lanterna
+rocker,java, https://www.javacodegeeks.com/2018/05/templating-with-rocker.html
+javamoney,java, http://javamoney.github.io/ - https://github.com/JavaMoney/javamoney-examples
+esempi java,java, EXAMPLE - https://www.tutorialspoint.com/javaexamples/index.htm
+Python google calendar,python, https://developers.google.com/calendar/overview
+python pdf,python, pdf (libricino)
+python excel,python, excel (libricino)
+python word,python, word (libricino)
+python datetime libraries,python, https://opensource.com/article/18/4/python-datetime-libraries
+python redis,python, redis
+python shell interattiva,python, https://fedoramagazine.org/enhance-python-interactive-shell/
+python sorgenti funzioni,python, https://opensource.com/article/18/5/how-retrieve-source-code-python-functions
+python aprire file programma default,python, https://stackoverflow.com/questions/1679798/how-to-open-a-file-with-the-standard-application
+glide,java android, http://www.html.it/pag/71017/glide-e-il-caricamento-delle-immagini/
+java android google calendar,java android, https://developers.google.com/calendar/overview?authuser=0
+java android google drive,java android, https://developers.google.com/drive/v3/web/about-sdk
+Php google drive,php, https://developers.google.com/drive/v3/web/about-sdk
+lodash,php, lodash
+php goole calendar,php, https://developers.google.com/calendar/overview
+php mustache,php, https://github.com/bobthecow/mustache.php
+php doctrine,php, https://linuxconfig.org/introduction-to-the-doctrine-orm-and-data-mapper-pattern-in-php
+php7_coalescing_operator,php, https://www.tutorialspoint.com/php7/php7_coalescing_operator.htm
+php7_csprng,php, https://www.tutorialspoint.com/php7/php7_csprng.htm - https://it.wikipedia.org/wiki/Generatore_di_numeri_pseudocasuali_crittograficamente_sicuro
+php tigra,php, https://github.com/artur-graniszewski/tigra-image-library
+js hamsters,js, https://www.hamsters.io/
+js google calendar,js, https://developers.google.com/calendar/overview
+js node google calendar,js, node - https://developers.google.com/calendar/overview
+js-imagediff,js, https://github.com/HumbleSoftware/js-imagediff
+node-unqlite,js, https://github.com/hideo55/node-unqlite
+node redis,js, node.js redis
+js contenuto non selezionabile,js, https://www.iprogrammatori.it/forum-programmazione/javascript-ajax/impedire-che-contenuto-una-pagina-sia-selezionabile-t34533.html
+js sqlite,js, https://www.c-sharpcorner.com/article/how-to-connect-sqlite-with-node-js/ (controllare)
+jexcel,js, https://github.com/paulhodel/jexcel (controllare)
+js stimulus.js,js, https://stimulusjs.org/handbook/introduction
+ruby pdfkit,ruby, https://github.com/pdfkit/pdfkit
+ruby unqlite,ruby, https://github.com/danieltdt/unqlite-ruby
+ruby redis,ruby, redis
+c# redis,c#, redis
+c# sha256,c#, https://www.c-sharpcorner.com/article/compute-sha256-hash-in-c-sharp/
+cloudconvert api,vari, https://cloudconvert.com/api
+dropbox vari,vari, https://github.com/dropbox/zxcvbn

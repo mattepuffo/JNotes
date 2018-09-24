@@ -1,0 +1,50 @@
+        if (list != null) {
+            DirChooser dc = new DirChooser();
+            Optional<File> f;
+
+            if (obj == miJson) {
+                f = dc.saveFile(getStage().getOwner(), "Esporta JSON", new FileChooser.ExtensionFilter("JSON (*.json)", "*.json"));
+                if (f.isPresent()) {
+                    try {
+                        JsonDb jd = new JsonDb();
+                        jd.create(f.get().getPath(), list);
+                        GenericDialog.showDialog("Database esportato!", Alert.AlertType.INFORMATION);
+                    } catch (IOException ex) {
+                        GenericDialog.showDialog(ex.getMessage(), Alert.AlertType.WARNING);
+                    }
+                }
+            } else if (obj == miXls) {
+                f = dc.saveFile(getStage().getOwner(), "Esporta XLS", new FileChooser.ExtensionFilter("XLS (*.xls)", "*.xls"));
+                if (f.isPresent()) {
+                    try {
+                        ExcelDb ed = new ExcelDb();
+                        ed.create(f.get().getPath(), tblCaption, list);
+                        GenericDialog.showDialog("Database esportato!", Alert.AlertType.INFORMATION);
+                    } catch (IOException | WriteException ex) {
+                        GenericDialog.showDialog(ex.getMessage(), Alert.AlertType.WARNING);
+                    }
+                }
+            } else if (obj == miCsv) {
+                f = dc.saveFile(getStage().getOwner(), "Esporta CSV", new FileChooser.ExtensionFilter("CSV (*.csv)", "*.csv"));
+                if (f.isPresent()) {
+                    try {
+                        CsvDb cd = new CsvDb();
+                        cd.create(f.get().getPath(), tblCaption, list);
+                        GenericDialog.showDialog("Database esportato!", Alert.AlertType.INFORMATION);
+                    } catch (IOException ex) {
+                        GenericDialog.showDialog(ex.getMessage(), Alert.AlertType.WARNING);
+                    }
+                }
+            } else if (obj == miXml) {
+                f = dc.saveFile(getStage().getOwner(), "Esporta XML", new FileChooser.ExtensionFilter("XML (*.XML)", "*.XML"));
+                if (f.isPresent()) {
+                    try {
+                        XmlDb xd = new XmlDb();
+                        xd.create(f.get().getPath(), list);
+                        GenericDialog.showDialog("Database esportato!", Alert.AlertType.INFORMATION);
+                    } catch (ParserConfigurationException | TransformerException ex) {
+                        GenericDialog.showDialog(ex.getMessage(), Alert.AlertType.WARNING);
+                    }
+                }
+            }
+        }
